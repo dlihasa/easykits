@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ((CountDownView)findViewById(R.id.countDownView))
-                .setCompareTime(System.currentTimeMillis()+3600000);
+                .setCompareTime(System.currentTimeMillis()+2000);
     }
 }

@@ -3,6 +3,7 @@ package com.dlihasa.countdown;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.CountDownTimer;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
@@ -95,7 +96,7 @@ public class CountDownView extends androidx.appcompat.widget.AppCompatTextView {
         if(desTime >= serverTime){
             countDownTime(desTime-serverTime);
         }else{
-            countDownTime(serverTime-desTime);
+            throw new IllegalArgumentException("setCompareTime() Need BIGGER TIME ONLY");
         }
     }
 
