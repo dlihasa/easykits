@@ -22,7 +22,7 @@ repositories {
 <h3>在app下的build.gradle文件中引入依赖</h3>
 
 ```
-implementation 'cn.dlihasa.easykits:countdown:x.x.x
+implementation 'cn.dlihasa.easykits:countdown:x.x.x'
 ```
 
 <h3>在xml中引入控件</h3>
