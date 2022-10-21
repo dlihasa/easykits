@@ -11,7 +11,7 @@ A Simple Kits For Android
 
 <h1>使用方式：</h1>
 
-<h2>（1）在project下的build.gradle文件中加入</h2>
+<h3>(1)在project下的build.gradle文件中加入</h3>
 
 ```
 repositories {
@@ -19,16 +19,16 @@ repositories {
 }
 ```
 
-<h2>(2)在app下的build.gradle文件中引入依赖</h2>
+<h3>(2)在app下的build.gradle文件中引入依赖</h3>
 
 ```
 implementation 'cn.dlihasa.easykits:countdown:x.x.x
 ```
 
-<h2>（3）在xml中引入控件</h2>
-...
+<h3>(3)在xml中引入控件</h3>
+...省略...
 
-<h2>（4）代码中使用方式如下</h2>
+<h3>(4)代码中使用方式如下</h3>
 
 ```
 CountDownView countDownView = (CountDownView)findViewById(R.id.countDownView);
