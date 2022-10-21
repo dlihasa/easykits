@@ -1,7 +1,7 @@
 # easykits
 A Simple Kits For Android
 
-<h1>Android倒计时组件**</h1><br>
+<h1>Android倒计时组件</h1><br>
 
 1、适用于列表及其他任何场景的倒计时<br>
 2、组件内部处理资源释放和倒计时的处理<br>
@@ -9,9 +9,9 @@ A Simple Kits For Android
 4、倒计时结束需要处理事务时传入结束监听，自行处理结束业务。<br>
 
 
-<h1>使用方式：</h1>
+<h2>使用方式：</h2>
 
-<h3>(1)在project下的build.gradle文件中加入</h3>
+<h3>在project下的build.gradle文件中加入</h3>
 
 ```
 repositories {
@@ -19,16 +19,16 @@ repositories {
 }
 ```
 
-<h3>(2)在app下的build.gradle文件中引入依赖</h3>
+<h3>在app下的build.gradle文件中引入依赖</h3>
 
 ```
 implementation 'cn.dlihasa.easykits:countdown:x.x.x
 ```
 
-<h3>(3)在xml中引入控件</h3>
+<h3>在xml中引入控件</h3>
 ...省略...
 
-<h3>(4)代码中使用方式如下</h3>
+<h3>代码中使用方式如下</h3>
 
 ```
 CountDownView countDownView = (CountDownView)findViewById(R.id.countDownView);
