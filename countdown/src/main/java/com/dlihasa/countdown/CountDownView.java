@@ -80,8 +80,7 @@ public class CountDownView extends androidx.appcompat.widget.AppCompatTextView {
         };
         countDownTimer.start();
     }
-
-
+    
     public void cancelCountDown(){
         if(countDownTimer!=null){
             countDownTimer.cancel();
