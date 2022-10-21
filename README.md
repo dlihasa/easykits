@@ -10,16 +10,21 @@ A Simple Kits For Android
 
 
 <h1>使用方式：</h1>
+
 <h2>（1）在project下的build.gradle文件中加入</h2>
+
 ```
 repositories {
    mavenCentral()     
 }
 ```
+
 <h2>(2)在app下的build.gradle文件中引入依赖</h2>
+
 ```
 implementation 'cn.dlihasa.easykits:countdown:x.x.x
 ```
+
 <h2>（3）在xml中引入控件</h2>
 ...
 
